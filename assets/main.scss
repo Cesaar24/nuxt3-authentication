@@ -1,0 +1,60 @@
+
+:root {
+  --clr-bg-base: #b4b4b4;
+  --clr-bg-alt: #f1f1f1;
+  --clr-neutral-200: #f4f4f4;
+  --clr-orange-400: #edc15b;
+  --clr-headings: #071833;
+  --clr-drawer-bg: hsla(0, 0%, 100%, 0.1);
+  --clr-new-bg-base: #ffffff;
+
+  --ff-body: 'Poppins', sans-serif;
+}
+
+.theme--dark {
+  --clr-bg-base: #1c1f21;
+  --clr-bg-alt: #212629;
+  --clr-neutral-200: #282d2f;
+  --clr-headings: #ffffff;
+  --clr-drawer-bg: hsla(0, 0%, 26%, 0.1);
+  --clr-new-bg-base: #1f2633;
+}
+
+/* html {
+  scroll-behavior: smooth;
+  height: 100%;
+  scrollbar-width: none; 
+}
+body {
+  overflow: hidden;
+  height: 100%;
+  background: var(--clr-bg-base);
+  scrollbar-width: none; 
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+} */
+
+/* #app {
+  height: 100%;
+  
+}
+#__nuxt{
+  height: 100%;
+} */
+
+html {
+  height: 100%;
+  /* overflow: hidden; */
+}
+body {
+  height: 100%;
+}
+#__nuxt{
+  height: 100%;
+}
+#app {
+  height: 100%;
+  
+}
